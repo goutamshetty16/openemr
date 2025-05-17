@@ -1,0 +1,16 @@
+- route:
+    id: test
+    group: OpenEMR_integration
+    from:
+      id: from-4253
+      description: amqp
+      uri: amqp
+      parameters:
+        destinationName: jklk
+      steps:
+        - to:
+            id: to-2425
+            description: omniflow
+            uri: omniflow
+            parameters:
+              agentId: automation_bot_2

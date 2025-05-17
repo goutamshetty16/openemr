@@ -1,0 +1,39 @@
+- route:
+    id: testt
+    group: OpenEMR_integration
+    nodePrefixId: route-11e
+    from:
+      id: from-acdb
+      uri: zsegment
+      parameters:
+        protocol: 0195bce9-9007-75ef-9ec3-ba9da3adcb3a
+        name: eee
+      steps:
+        - to:
+            id: to-ffe1
+            uri: omniflow
+            parameters:
+              extension: "Akhilesh "
+              operation: update data
+              agentId: automation_bot_1
+        - to:
+            id: to-790e
+            uri: omniflow
+            parameters:
+              extension: "satwik "
+              operation: update refferal
+              agentId: automation_bot_1
+        - to:
+            id: to-e4b3
+            uri: omniflow
+            parameters:
+              extension: goutam
+              operation: get extension
+              agentId: automation_bot_1
+        - to:
+            id: to-8769
+            uri: omniflow
+            parameters:
+              extension: goutam
+              operation: update extension
+              agentId: automation_bot_1

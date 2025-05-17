@@ -1,0 +1,20 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="zsegment:record" targetNamespace="zsegment:record">
+<xsd:element name="Record" type="Record"/>
+    <xsd:element name="record" type="Record"/>
+    
+    <xsd:complexType name="Record">
+        <xsd:sequence>
+            <xsd:element name="testing.1">
+                <xsd:complexType>
+                    <xsd:attribute name="Name" fixed="abc"/>
+                    <xsd:attribute name="Datatype" fixed="STRING"/>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="ClassName" fixed="testing"/>
+        <xsd:attribute name="SchemaType" fixed="DELIMITED"/>
+        <xsd:attribute name="Delimiter" fixed="@"/>
+        <xsd:attribute name="IncludeHeader" fixed="true"/>
+    </xsd:complexType>
+</xsd:schema>
+

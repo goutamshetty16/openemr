@@ -1,0 +1,51 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="zsegment:record" targetNamespace="zsegment:record">
+<xsd:element name="Record" type="Record"/>
+<xsd:complexType name="Record">
+<xsd:sequence>
+<xsd:element name="testtt.1">
+<xsd:complexType>
+<xsd:attribute name="Datatype" fixed="STRING"/>
+<xsd:attribute name="Name" fixed="field1"/>
+<xsd:attribute name="Alignment" fixed="RIGHT"/>
+<xsd:attribute name="PaddingCharacter" fixed="`"/>
+<xsd:attribute name="Length" fixed="4"/>
+</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="testtt.2">
+<xsd:complexType>
+<xsd:attribute name="Name" fixed="field2"/>
+<xsd:attribute name="Datatype" fixed="INTEGER"/>
+<xsd:attribute name="PaddingCharacter" fixed="`"/>
+<xsd:attribute name="Alignment" fixed="RIGHT"/>
+<xsd:attribute name="Length" fixed="4"/>
+</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="testtt.3">
+<xsd:complexType>
+<xsd:attribute name="Name" fixed="field3"/>
+<xsd:attribute name="Datatype" fixed="DOUBLE"/>
+<xsd:attribute name="PaddingCharacter" fixed="`"/>
+<xsd:attribute name="Alignment" fixed="LEFT"/>
+<xsd:attribute name="Length" fixed="4"/>
+</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="testtt.4">
+<xsd:complexType>
+<xsd:attribute name="Name" fixed="field4"/>
+<xsd:attribute name="Datatype" fixed="DATE_TIME"/>
+<xsd:attribute name="DateFormat" fixed=" YYYY-MM-DD"/>
+<xsd:attribute name="OutputDateFormat" fixed=" YYYY-MM-DD"/>
+<xsd:attribute name="PaddingCharacter" fixed="`"/>
+<xsd:attribute name="Alignment" fixed="LEFT"/>
+<xsd:attribute name="Length" fixed="4"/>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+<xsd:attribute name="ClassName" fixed="testtt"/>
+<xsd:attribute name="SchemaType" fixed="FIXED_LENGTH"/>
+<xsd:attribute name="IncludeHeader" fixed="true"/>
+</xsd:complexType>
+</xsd:schema>
