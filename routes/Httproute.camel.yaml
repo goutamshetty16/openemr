@@ -8,12 +8,12 @@
         protocol: 01950363-c98e-79c9-a221-d1c357ea8e0b
       steps:
         - to:
-            id: to-1570
-            description: testaodfsi
+            id: to-4764
+            description: aV
             uri: zsegment
             parameters:
-              name: testaodfsi
-              protocol: 01976953-1bbb-7f85-ac64-a0b85eae40f9
+              name: aV
+              protocol: 0197874f-7660-7276-ab69-581ad3263677
         - to:
             id: to-2827
             description: FileZSegment
