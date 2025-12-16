@@ -1,0 +1,17 @@
+- route:
+    id: Httproute
+    group: OpenEMR_integration
+    nodePrefixId: route-6ce
+    from:
+      id: from-406f
+      uri: zsegment
+      parameters:
+        protocol: 01950363-c98e-79c9-a221-d1c357ea8e0b
+        name: openEMR_Http
+      steps:
+        - to:
+            id: to-ff49
+            uri: zsegment
+            parameters:
+              protocol: 01950312-5d39-7438-aa82-74272d2751be
+              name: FileZSegment
