@@ -15,7 +15,7 @@
               name: testaodfsi
               protocol: 01976953-1bbb-7f85-ac64-a0b85eae40f9
         - to:
-            id: to-8699
+            id: to-2146
             description: testaodfsi
             uri: zsegment
             parameters:
