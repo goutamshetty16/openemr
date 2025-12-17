@@ -15,11 +15,11 @@
               name: testaodfsi
               protocol: 01976953-1bbb-7f85-ac64-a0b85eae40f9
         - to:
-            id: to-2827
-            description: FileZSegment
+            id: to-8699
+            description: testaodfsi
             uri: zsegment
             parameters:
-              name: FileZSegment
-              protocol: 01950312-5d39-7438-aa82-74272d2751be
+              name: testaodfsi
+              protocol: 01976953-1bbb-7f85-ac64-a0b85eae40f9
     group: OpenEMR_integration
     nodePrefixId: route-6ce
