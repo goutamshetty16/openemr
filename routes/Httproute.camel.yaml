@@ -8,13 +8,6 @@
         protocol: 01950363-c98e-79c9-a221-d1c357ea8e0b
       steps:
         - to:
-            id: to-2398
-            description: testaodfsi
-            uri: zsegment
-            parameters:
-              name: testaodfsi
-              protocol: 01976953-1bbb-7f85-ac64-a0b85eae40f9
-        - to:
             id: to-2146
             description: testaodfsi
             uri: zsegment
