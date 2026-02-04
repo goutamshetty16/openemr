@@ -1,0 +1,18 @@
+- route:
+    id: DFDL_testing-testing
+    from:
+      id: from-1309
+      description: tcp_source
+      uri: zsegment
+      parameters:
+        name: tcp_source
+        protocol: 019b027c-0308-7d3e-a1dc-7f04fdb1fb5b
+      steps:
+        - to:
+            id: to-2531
+            description: file_dest
+            uri: zsegment
+            parameters:
+              name: file_dest
+              protocol: 019b027d-7616-7aaa-b5a0-15c9c378833f
+    group: DFDL_testing
